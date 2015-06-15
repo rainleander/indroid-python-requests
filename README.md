@@ -14,6 +14,7 @@ google research
 
 [a function which accepts a string and returns the Google-results for this string "Python requests”]
 
-<ul><li>https://code.google.com/p/googlemock/wiki/CheatSheet</li>
-<li>http://docs.python-requests.org/en/latest/</li>
+<ul><li><strike>https://code.google.com/p/googlemock/wiki/CheatSheet</strike></li>
 <li><strike>https://cloud.google.com/appengine/docs/python/requests</strike></li>
+<li>http://docs.python-requests.org/en/latest/</li>
+	<ul><li>thorough, but only shows how to request, not how to return the results</li></ul>
