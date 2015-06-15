@@ -18,3 +18,8 @@ google research
 <li><strike>https://cloud.google.com/appengine/docs/python/requests</strike></li>
 <li>http://docs.python-requests.org/en/latest/</li>
 	<ul><li>thorough, but only shows how to request, not how to return the results</li></ul>
+</ul>
+
+[python requests tutorial]
+
+<ul><li>http://www.pythonforbeginners.com/requests/using-requests-in-python</li></ul>
