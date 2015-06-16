@@ -1,26 +1,40 @@
 #!/usr/bin/env python2
 # -*- coding: utf8 -*-
 
+# https://github.com/rainsdance/indroid-python-requests
+
+# Junior Application Developer at indroid
+# 2. Also make a function which accepts a string and returns the Google results.
+# This time do it with a different method: use Python and Selenium,
+# which controls a browser (default: Firefox). 
+
+# modification of https://github.com/DanMcInerney/search-google
+
+# imports the sys, time, random, and argparse modules
 import sys
 import time
 import random
 import argparse
 
+# imports several functions from the selenium module
 from selenium import webdriver
 from selenium.webdriver.support.ui import Select, WebDriverWait
 from selenium.common.exceptions import NoSuchFrameException
 from selenium.webdriver.common.keys import Keys
 
+# defines the search argument which is passed to the script when it's run
 def parse_args():
     parser = argparse.ArgumentParser()
     parser.add_argument('-s', '--search', help='Enter the search term')
     return parser.parse_args()
 
+# start the firefox browser
 def start_browser():
     br = webdriver.Firefox()
     br.implicitly_wait(10)
     return br
 
+# grab the title and url of the results
 def scrape_results(br):
     # Xpath will find a subnode of h3, a[@href] specifies that we only want <a> nodes with
     # any href attribute that are subnodes of <h3> tags that have a class of 'r'
@@ -33,6 +47,7 @@ def scrape_results(br):
         results.append(title_url)
     return results
 
+# navigates to the google.com results page with ten results
 def go_to_page(br, page_num, search_term):
     page_num = page_num - 1
     start_results = page_num * 10
@@ -42,11 +57,11 @@ def go_to_page(br, page_num, search_term):
     br.get(url)
     time.sleep(2)
 
+# main script which pulls together the previous scripts to display the results
+# in firefox
 def main():
     args = parse_args()
     br = start_browser()
-    if not args.search:
-        sys.exit("[!] Enter a term or phrase to search with the -s option: -s 'dan mcinerney'")
     search_term = args.search
 
     all_results = []
@@ -62,4 +77,5 @@ def main():
         url = result[1]
         print '[+]', title, '--', url
 
+# gives this module import and testing accessibility
 main()
