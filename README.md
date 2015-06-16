@@ -22,4 +22,8 @@ google research
 
 [python requests tutorial]
 
-<ul><li>http://www.pythonforbeginners.com/requests/using-requests-in-python</li></ul>
+<ul><li><strike>http://www.pythonforbeginners.com/requests/using-requests-in-python</strike></li></ul>
+
+[requests python google]
+
+<ul><li>http://code.runnable.com/Uri5rHtisU8kAA5S/command-the-web-with-python-requests-for-tutorial-beginner-http-scrapping-and-json</li></ul>
