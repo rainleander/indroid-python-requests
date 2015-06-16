@@ -32,4 +32,5 @@ google research
 
 <ul><li>https://selenium-python.readthedocs.org/</li>
 <li>https://code.google.com/p/selenium/wiki/PythonBindings</li>
-<li>http://stackoverflow.com/questions/17540971/how-to-use-selenium-with-python</li></ul>
+<li>http://stackoverflow.com/questions/17540971/how-to-use-selenium-with-python</li>
+<li>https://gist.github.com/hugs/830011</li></ul>
