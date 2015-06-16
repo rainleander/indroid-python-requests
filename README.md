@@ -10,33 +10,35 @@
 	- use Python and Selenium
 		- which controls a browser (default: Firefox). 
 
-google research
+<h3>requests-simple.py</h3>
+Scrape Google search results with the requests python module.
 
-[a function which accepts a string and returns the Google-results for this string "Python requests”]
+<h4>Dependencies</h4>
+<ul><li>python 2.7</li></ul>
 
-<ul><li><strike>https://code.google.com/p/googlemock/wiki/CheatSheet</strike></li>
-<li><strike>https://cloud.google.com/appengine/docs/python/requests</strike></li>
-<li>http://docs.python-requests.org/en/latest/</li>
-	<ul><li>thorough, but only shows how to request, not how to return the results</li></ul>
-</ul>
+<h4>Installation</h4>
+<code>pip install requests
+git clone https://github.com/rainsdance/indroid-python-requests
+cd indroid-python-requests</code>
 
-[python requests tutorial]
+<h4>Use</h4>
+<code>python requests-simple.py</code>
 
-<ul><li><strike>http://www.pythonforbeginners.com/requests/using-requests-in-python</strike></li></ul>
+Script prompts for a string (What would you like to search for?) and then an integer (How many results would you like to see?) and returns the unformatted google results.
 
-[requests python google]
+<h3>selenium-complex.py</h3>
+Scrape Google search results with Selenium based on https://github.com/DanMcInerney/search-google
 
-<ul><li>http://code.runnable.com/Uri5rHtisU8kAA5S/command-the-web-with-python-requests-for-tutorial-beginner-http-scrapping-and-json</li></ul>
+<h4>Dependencies</h4>
+<ul><li>python 2.7</li>
+<li>Selenium</li></ul>
 
-[python selenium]
+<h4>Installation</h4>
+<code>pip install selenium
+git clone https://github.com/rainsdance/indroid-python-requests
+cd indroid-python-requests</code>
 
-<ul><li>https://selenium-python.readthedocs.org/</li>
-<li><strike>https://code.google.com/p/selenium/wiki/PythonBindings</strike></li>
-<li><strike>http://stackoverflow.com/questions/17540971/how-to-use-selenium-with-python</strike></li>
-<li><strike>https://gist.github.com/hugs/830011</strike></li></ul>
+<h4>Use</h4>
+<code>python selenium-complex.py -s "foo bar test"</code>
 
-[python selenium google]
-
-<ul><li>http://irwinkwan.com/2013/04/05/automating-the-web-with-selenium-complete-tasks-automatically-and-write-test-cases/</li>
-<li><strike>http://docs.seleniumhq.org/docs/03_webdriver.jsp#introducing-the-selenium-webdriver-api-by-example</strike></li>
-<li>https://github.com/DanMcInerney/search-google</li></ul>
+Will open the firefox browser, search for "foo bar test" on google.com and return one page of ten results with the title and url of each result.
