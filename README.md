@@ -27,3 +27,9 @@ google research
 [requests python google]
 
 <ul><li>http://code.runnable.com/Uri5rHtisU8kAA5S/command-the-web-with-python-requests-for-tutorial-beginner-http-scrapping-and-json</li></ul>
+
+[python selenium]
+
+<ul><li>https://selenium-python.readthedocs.org/</li>
+<li>https://code.google.com/p/selenium/wiki/PythonBindings</li>
+<li>http://stackoverflow.com/questions/17540971/how-to-use-selenium-with-python</li></ul>
