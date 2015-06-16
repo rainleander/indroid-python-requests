@@ -1,0 +1,15 @@
+mac:indroid-python-requests krpl$ sudo pip install selenium
+Password:
+The directory '/Users/kristinrainpleander/Library/Caches/pip/http' or its parent directory is not owned by the current user and the cache has been disabled. Please check the permissions and owner of that directory. If executing pip with sudo, you may want sudo's -H flag.
+You are using pip version 7.0.1, however version 7.0.3 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+The directory '/Users/kristinrainpleander/Library/Caches/pip/http' or its parent directory is not owned by the current user and the cache has been disabled. Please check the permissions and owner of that directory. If executing pip with sudo, you may want sudo's -H flag.
+Collecting selenium
+/Library/Python/2.7/site-packages/pip-7.0.1-py2.7.egg/pip/_vendor/requests/packages/urllib3/util/ssl_.py:90: InsecurePlatformWarning: A true SSLContext object is not available. This prevents urllib3 from configuring SSL appropriately and may cause certain SSL connections to fail. For more information, see https://urllib3.readthedocs.org/en/latest/security.html#insecureplatformwarning.
+  InsecurePlatformWarning
+  Downloading selenium-2.46.0.tar.gz (2.6MB)
+    100% |████████████████████████████████| 2.6MB 146kB/s 
+Installing collected packages: selenium
+  Running setup.py install for selenium
+Successfully installed selenium-2.46.0
+
