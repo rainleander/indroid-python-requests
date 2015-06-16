@@ -34,3 +34,9 @@ google research
 <li><strike>https://code.google.com/p/selenium/wiki/PythonBindings</strike></li>
 <li><strike>http://stackoverflow.com/questions/17540971/how-to-use-selenium-with-python</strike></li>
 <li><strike>https://gist.github.com/hugs/830011</strike></li></ul>
+
+[python selenium google]
+
+<ul><li>http://irwinkwan.com/2013/04/05/automating-the-web-with-selenium-complete-tasks-automatically-and-write-test-cases/</li>
+<li><strike>http://docs.seleniumhq.org/docs/03_webdriver.jsp#introducing-the-selenium-webdriver-api-by-example</strike></li>
+<li>https://github.com/DanMcInerney/search-google</li></ul>
