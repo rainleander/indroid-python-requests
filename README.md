@@ -17,12 +17,16 @@ Scrape Google search results with the requests python module.
 <ul><li>python 2.7</li></ul>
 
 <h4>Installation</h4>
-<code>pip install requests
+```shell
+pip install requests
 git clone https://github.com/rainsdance/indroid-python-requests
-cd indroid-python-requests</code>
+cd indroid-python-requests
+```
 
 <h4>Use</h4>
-<code>python requests-simple.py</code>
+```shell
+python requests-simple.py
+```
 
 Script prompts for a string (What would you like to search for?) and then an integer (How many results would you like to see?) and returns the unformatted google results.
 
@@ -34,11 +38,15 @@ Scrape Google search results with Selenium based on https://github.com/DanMcIner
 <li>Selenium</li></ul>
 
 <h4>Installation</h4>
-<code>pip install selenium
+```shell
+pip install selenium
 git clone https://github.com/rainsdance/indroid-python-requests
-cd indroid-python-requests</code>
+cd indroid-python-requests
+```
 
 <h4>Use</h4>
-<code>python selenium-complex.py -s "foo bar test"</code>
+```shell
+python selenium-complex.py -s "foo bar test"
+```
 
 Will open the firefox browser, search for "foo bar test" on google.com and return one page of ten results with the title and url of each result.
