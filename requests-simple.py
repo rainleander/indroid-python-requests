@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- encoding: utf-8 -*-
 
-# https://github.com/rainsdance/indroid-python-requests
+# https://github.com/rainleander/indroid-python-requests
 
 # Junior Application Developer at indroid
 # 1. Make a function which accepts a string and returns the Google-results
