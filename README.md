@@ -1,5 +1,9 @@
 # indroid-python-requests
 
+During an interview with Indroid, the technical interview was a homework. The original email was quite intimidating, "1. make a function that accepts a string and returns the Google-results using python and the results-module. 2. make a function that accepts a string and returns the google results using python and selenium. Selenium controls a browser and uses Firefox as default."
+
+One of the first things I did was re-arrange the two part assignment into smaller pieces:
+
 1. Make a function 
  	- accepts a string 
 	- returns the Google-results 
